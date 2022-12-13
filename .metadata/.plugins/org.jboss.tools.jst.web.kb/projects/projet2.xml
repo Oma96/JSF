@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/projet2/WebContent/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="projet2"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/Houcem FOURATI/Desktop/POEI_Omaima/javax.faces-2.2.8.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.2.8.jar/meta-inf/html_basic.tld" project="projet2"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.2.8.jar/meta-inf/jsf_core.tld" project="projet2"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.2.8.jar/meta-inf/mojarra_ext.taglib.xml" project="projet2"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.2.8.jar/meta-inf/mojarra_ext.tld" project="projet2"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="20" name="%0" offset="1060" path="%1"/>
+   <linked-el length="23" name="%0" offset="797" path="%1"/>
+   <linked-el length="18" name="%0" offset="506" path="%1"/>
+   <linked-el length="18" name="%0" offset="417" path="%1"/>
+   <linked-el length="16" name="%2" offset="417" path="%3"/>
+   <linked-el length="52" name="%2" offset="514" path="%4"/>
+   <linked-el length="18" name="%2" offset="1054" path="%3"/>
+   <linked-el length="19" name="%2" offset="1228" path="%3"/>
+   <linked-el length="21" name="%2" offset="793" path="%3"/>
+   <linked-el length="20" name="%2" offset="1273" path="%3"/>
+   <linked-el length="37" name="%2" offset="444" path="%4"/>
+   <linked-el length="16" name="%2" offset="504" path="%3"/>
+   <linked-el length="37" name="%2" offset="375" path="%4"/>
+   <linked-el length="53" name="%2" offset="599" path="%4"/>
+   <linked-el length="15" name="%5" offset="412" path="%6"/>
+   <linked-el length="14" name="%5" offset="568" path="%6"/>
+   <linked-el length="17" name="%5" offset="498" path="%6"/>
+   <linked-el length="17" name="%5" offset="784" path="%7"/>
+   <linked-el length="19" name="%5" offset="495" path="%7"/>
+   <linked-el length="14" name="%5" offset="575" path="%7"/>
+   <linked-el length="15" name="%5" offset="412" path="%7"/>
+   <linked-el length="20" name="%8" offset="1060" path="%1"/>
+   <linked-el length="23" name="%8" offset="797" path="%1"/>
+   <linked-el length="18" name="%8" offset="506" path="%1"/>
+   <linked-el length="18" name="%8" offset="417" path="%1"/>
+   <linked-el length="15" name="%9" offset="412" path="%6"/>
+   <linked-el length="14" name="%9" offset="568" path="%6"/>
+   <linked-el length="17" name="%9" offset="498" path="%6"/>
+   <linked-el length="17" name="%9" offset="784" path="%7"/>
+   <linked-el length="19" name="%9" offset="495" path="%7"/>
+   <linked-el length="14" name="%9" offset="575" path="%7"/>
+   <linked-el length="15" name="%9" offset="412" path="%7"/>
+   <linked-el length="16" name="%10" offset="417" path="%3"/>
+   <linked-el length="52" name="%10" offset="514" path="%4"/>
+   <linked-el length="18" name="%10" offset="1054" path="%3"/>
+   <linked-el length="19" name="%10" offset="1228" path="%3"/>
+   <linked-el length="21" name="%10" offset="793" path="%3"/>
+   <linked-el length="20" name="%10" offset="1273" path="%3"/>
+   <linked-el length="37" name="%10" offset="444" path="%4"/>
+   <linked-el length="16" name="%10" offset="504" path="%3"/>
+   <linked-el length="37" name="%10" offset="375" path="%4"/>
+   <linked-el length="53" name="%10" offset="599" path="%4"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/projet2/WebContent/tpdropDown.xhtml" value="%1"/>
+  <alias path="/projet2/WebContent/index.xhtml" value="%6"/>
+  <alias path="/projet2/WebContent/Response.xhtml" value="%4"/>
+  <alias path="/projet2/src/projet2/Football.java" value="%0"/>
+  <alias path="/projet2/src/projet2/Equipe.java" value="%2"/>
+  <alias path="/projet2/src/projet2/User.java" value="%5"/>
+  <alias path="/projet2/WebContent/equipe.xhtml" value="%3"/>
+  <alias path="football" value="%8"/>
+  <alias path="/projet2/WebContent/formulaire.xhtml" value="%7"/>
+  <alias path="user" value="%9"/>
+  <alias path="equipe" value="%10"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

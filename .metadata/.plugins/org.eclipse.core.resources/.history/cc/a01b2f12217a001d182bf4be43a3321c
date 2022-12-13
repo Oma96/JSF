@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head></h:head> 
+<body> 
+
+
+<h:form>
+<p>Entrez votre nom : </p>
+<br/>
+<h:inputText value="#{user.name}" />
+<br/>
+<p>Entrez votre prenom : </p>
+<br/>
+<h:inputText value="#{user.lastname}" />
+<p>Choissisez votre sexe : </p>
+<h:selectOneRadio value="#{user.sexe}">
+  <f:selectItem itemLabel="homme" itemValue="homme"/>
+  <f:selectItem itemLabel="femme" itemValue="femme"/>
+</h:selectOneRadio>  
+<p>Etes-vous majeur ?</p>
+<h:selectBooleanCheckbox  value= "#{user.majeur}" ></h:selectBooleanCheckbox>
+<h:commandButton action="Response" value="Submit" />
+</h:form>
+</body> 
+</html>

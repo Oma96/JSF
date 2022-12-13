@@ -1,0 +1,50 @@
+package projet2;
+
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean
+public class User {
+	
+	private String name = "";
+	private boolean  majeur = false;
+
+	public User() {
+	
+	}
+
+	public User(String name) {
+		
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	public boolean isMajeur() {
+		return majeur;
+	}
+
+	public void setMajeur(boolean majeur) {
+		this.majeur = majeur;
+	}
+
+	@Override
+	public String toString() {
+		return "User [name=" + name + "]";
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

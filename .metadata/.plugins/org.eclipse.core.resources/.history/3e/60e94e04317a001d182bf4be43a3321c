@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head></h:head> 
+<body> 
+<h:form>
+<p>Entrez le nom de l'équipe : </p>
+<br/>
+<h:inputText value="#{football.nom}" />
+<br/>
+<p>Choissisez un pays : </p>
+<br/>
+<h:selectOneMenu value="#{football.pays}">
+  <f:selectItem itemLabel="France" itemValue="France"/>
+  <f:selectItem itemLabel="Tunisie" itemValue="Tunisie"/>
+  <f:selectItem itemLabel="Maroc" itemValue="Maroc"/>
+  
+</h:selectOneMenu>
+<br/>
+<p>Choissisez le nombre de joueurs : </p>
+
+<h:selectOneMenu value="#{football.nbrJoueur}">
+  <f:selectItem itemLabel="8" itemValue="8"/>
+  <f:selectItem itemLabel="9" itemValue="9"/>
+  <f:selectItem itemLabel="10" itemValue="10"/>
+</h:selectOneMenu>
+ <br/>
+ <p>Entrez le nombre de buts marqués : </p>
+
+<h:inputText value="#{football.nbrBut}">
+<f:convertNumber/>
+</h:inputText> 
+
+<h:commandButton action="Response" value="Submit" />
+</h:form>
+
+<h:link value="Ajouter un joueur" outcome="joueur.xhtml" />
+</body> 
+</html>

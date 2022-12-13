@@ -1,0 +1,43 @@
+package Bean;
+
+import javax.faces.bean.ManagedBean;
+
+
+// autocompletion -> ctr space
+// Gerer les import et les dependances -> ctrl +  shift +  O
+//Annotation definie par @ suivit de l'annotation
+// Definit un beans -> tu dois lui donner un nom sinon (nomdeclasse - Majuscule)
+@ManagedBean(name = "User")
+public class User { // generation de code -> click droit -> source -> generer...
+	private String name = "BOB";//attribut
+
+	public User() {
+		// Constructeur par defaut
+	}
+
+	public User(String name) {
+		this.name = name;
+		// Surcharge de mon constructeur
+	}
+
+	public String getName() {
+		return name; // getteur de name pour faces
+	}
+
+	public void setName(String name) {
+		this.name = name; // setteur de name pour faces
+	}
+
+	@Override
+	public String toString() {
+		return "User [name=" + name + "]";
+	}
+}
+
+
+
+
+
+	
+	
+}

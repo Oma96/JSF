@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/Houcem FOURATI/Desktop/POEI_Omaima/javax.faces-2.2.8.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.2.8.jar/meta-inf/html_basic.tld" project="projet2"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.2.8.jar/meta-inf/jsf_core.tld" project="projet2"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.2.8.jar/meta-inf/mojarra_ext.taglib.xml" project="projet2"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.2.8.jar/meta-inf/mojarra_ext.tld" project="projet2"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="30" name="%0" offset="360" path="%1"/>
+   <linked-el length="30" name="%2" offset="360" path="%1"/>
+   <linked-el length="12" name="%3" offset="439" path="%4"/>
+   <linked-el length="30" name="%5" offset="360" path="%1"/>
+   <linked-el length="9" name="%5" offset="376" path="%4"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/projet1/src/Bean/User.java" value="%0"/>
+  <alias path="User" value="%2"/>
+  <alias path="/projet1/WebContent/index.xhtml" value="%4"/>
+  <alias path="prenom" value="%3"/>
+  <alias path="nom" value="%5"/>
+  <alias path="/projet1/WebContent/Response.xhtml" value="%1"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>
